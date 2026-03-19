@@ -148,7 +148,7 @@ a:hover {
     padding-bottom: 9px;
 }
 
-.header__contact-item:nth-child(2):hover img {
+.header__contact-item:nth-child(2):hover {
     transition: opacity 0.3s ease;
     filter: brightness(0) saturate(100%) invert(80%) sepia(7%) saturate(6402%) hue-rotate(317deg) brightness(94%) contrast(106%);
 }
@@ -179,6 +179,8 @@ a:hover {
     gap: 50px;
     max-height: 250px;
     box-sizing: border-box;
+    overflow-wrap: break-word;
+    width: 100%;
 
 }
 
@@ -489,4 +491,21 @@ a:hover {
 
 .center {
     text-align: center;
+}
+
+@media (max-width: 1170px) {
+    .credit-card__content-item__title{
+        font-size: 18px;
+    }
+    .credit-card__content-item__description-text {
+        font-size: 14px;
+    }
+
+    .credit-terms__value {
+        font-size: 18px;
+    }
+
+    .credit-card__content-image img{
+        max-width: 300px;
+    }
 }
