@@ -47,11 +47,13 @@
     font-style: normal;
 }
 
-.@font-face {
+.
+
+@font-face {
     font-family: 'Tank Medium';
     src: url('/fonts/tank-medium.woff2') format('woff2');
     font-weight: 500; /
-    font-style: normal;
+font-style: normal;
 }
 
 @font-face {
@@ -118,6 +120,7 @@ a:hover {
     display: flex;
     gap: 22px;
 }
+
 .logo-center {
     height: 45px;
 }
@@ -137,7 +140,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:9px 0 5px 0;
+    margin: 9px 0 5px 0;
     gap: 27px;
 
 }
@@ -146,6 +149,10 @@ a:hover {
     display: flex;
     column-gap: 9px;
     padding-bottom: 9px;
+}
+
+.header__contact-item img {
+    height: 100%;
 }
 
 .header__contact-item:nth-child(2):hover {
@@ -258,10 +265,6 @@ a:hover {
 }
 
 
-
-
-
-
 .hero__item {
     padding: 102px 122px;
     display: flex;
@@ -281,7 +284,6 @@ a:hover {
     font-weight: 500;
     line-height: 42px;
 }
-
 
 
 .decor {
@@ -305,7 +307,7 @@ a:hover {
 .credit-card {
     margin: 0 auto;
     max-width: 1200px;
-    height: 432px;
+    min-height: 432px;
     background: linear-gradient(90deg, #000 0%, #202525 100%);
     border-radius: 15px;
 
@@ -377,6 +379,7 @@ a:hover {
     align-items: center;
     max-width: 440px;
     max-height: 100%;
+    padding-top: 53px;
 }
 
 .footer {
@@ -494,18 +497,94 @@ a:hover {
 }
 
 @media (max-width: 1170px) {
-    .credit-card__content-item__title{
+    .credit-card__content-item__title {
         font-size: 18px;
     }
+
     .credit-card__content-item__description-text {
         font-size: 14px;
     }
 
     .credit-terms__value {
         font-size: 18px;
+        margin-left: 0;
     }
 
-    .credit-card__content-image img{
+    .credit-card__content-image img {
         max-width: 300px;
+        padding: 10% 0;
     }
+}
+
+@media (max-width: 1024px) {
+    .hero__item {
+        padding: 102px 30px;;
+    }
+
+    .credit-card__content {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .credit-card__content-item {
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        max-height: none;
+    }
+
+    .step {
+        align-items: center;
+
+    }
+
+    .credit-item {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+
+    .footer-right {
+        padding: 0 15px;
+    }
+
+    .footer-right__menu {
+        padding: 0;
+        gap: 10px;
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .footer__left {
+        padding: 0 15px;
+    }
+
+    .credit-card__content-image img {
+        padding: 0;
+    }
+
+    .credit-card__content-image {
+        padding: 0;
+        max-width: 80%
+    }
+
+    .credit-card {
+        min-height: auto;
+        height: auto;
+        overflow: auto;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .header__content-item-child {
+        gap: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    
 }
