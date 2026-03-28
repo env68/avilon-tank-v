@@ -140,7 +140,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 9px 0 5px 0;
+    margin: 4px 0 5px 0;
     gap: 27px;
 
 }
@@ -153,6 +153,7 @@ a:hover {
 
 .header__contact-item img {
     height: 100%;
+    max-height: 17px;
 }
 
 .header__contact-item:nth-child(2):hover {
@@ -184,7 +185,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    max-height: 250px;
     box-sizing: border-box;
     overflow-wrap: break-word;
     width: 100%;
@@ -243,6 +243,8 @@ a:hover {
 
 .credit-programs {
     margin: 100px 45px 0 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .credit {
@@ -310,7 +312,8 @@ a:hover {
     min-height: 432px;
     background: linear-gradient(90deg, #000 0%, #202525 100%);
     border-radius: 15px;
-
+    display: flex;
+    flex: 1;
 }
 
 
@@ -368,7 +371,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     margin: 33px 76px;
-    height: 100%;
+    max-height: 100%;
 
 }
 
@@ -456,10 +459,6 @@ a:hover {
 }
 
 
-.row {
-    padding-right: 33px;
-}
-
 .fw-600 {
     font-weight: 600;
     font-family: TT Wellingtons DemiBold;
@@ -496,13 +495,29 @@ a:hover {
     text-align: center;
 }
 
+.logo-mobile {
+    display: none;
+}
+
+.header__contact-item-mob {
+    display: none;
+}
+
+.button-mob {
+    display: none;
+}
+
+.footer-social-link-mob {
+    display: none;
+}
+
 @media (max-width: 1170px) {
     .credit-card__content-item__title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .credit-card__content-item__description-text {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .credit-terms__value {
@@ -576,6 +591,14 @@ a:hover {
         height: auto;
         overflow: auto;
     }
+
+    .logo-left {
+        margin-left: 20px;
+    }
+
+    .header__contact {
+        margin-right: 20px;
+    }
 }
 
 
@@ -586,5 +609,164 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    
+    .logo-main {
+        display: none;
+    }
+
+    .logo-reward {
+        display: none;
+    }
+
+    .logo-center {
+        display: none;
+    }
+
+    .header__content-item-child {
+        display: none;
+    }
+
+    .header__contact-item {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block;
+    }
+
+    .header__contact-item-mob {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        flex-direction: row-reverse;
+        margin: -3px -7px 8px;
+    }
+
+    .header {
+        margin: 16px auto 0px;
+    }
+
+    .logo-left {
+        margin-left: 13px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+    }
+
+    .hero__description {
+        font-size: 18px;
+    }
+
+    .h2 {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+
+    .step__text {
+        font-size: 14px;
+    }
+
+    .credit-programs {
+        margin: 35px auto;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .credit-terms {
+        grid-template-rows: repeat(2, 0.5fr);
+        grid-template-columns: none;
+        text-align: center;
+        padding-top: 20px;
+        padding: 10px;
+        width: 370px;
+    }
+
+    .credit-terms__content {
+        flex-direction: row;
+        text-align: start;
+    }
+
+    .credit-terms__content::before {
+
+    }
+
+    .button-mob {
+        display: block;
+    }
+
+    .credit-button {
+        padding: 20px;
+    }
+
+
+    .credit-card__content-item {
+        gap: 10px;
+    }
+
+    .credit-card__content {
+        margin: 10px;
+    }
+
+    .credit-terms__value {
+        display: flex;
+        gap: 10px;
+    }
+
+    .credit-terms__content:last-child::before {
+        display: block;
+
+    }
+
+    .credit-terms__content::before {
+        position: relative;
+        width: 2px;
+        height: 32px;
+    }
+
+    .credit-card__content-top {
+        gap: 30px;
+    }
+
+    .footer-right__menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .footer-right {
+        padding: 0;
+    }
+
+    .footer-right > div:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    .footer-social-link-mob {
+        display: flex;
+        gap: 19px;
+        padding-top: 20px;
+
+    }
+
+    .footer-social-link {
+        display: none;
+    }
+
+    .footer-social-link-mob img {
+        height: 20px;
+    }
+
+    .credit {
+        margin-top: 35px;
+    }
+    .credit-terms {
+        width: 100%;
+    }
+
+    .footer__nav-list {
+        padding-right: 10px;
+    }
+
 }
