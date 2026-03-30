@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 .content {
     max-width: 1440px;
     margin: 0 auto;
@@ -47,8 +46,6 @@
     font-style: normal;
 }
 
-.
-
 @font-face {
     font-family: 'Tank Medium';
     src: url('/fonts/tank-medium.woff2') format('woff2');
@@ -66,14 +63,13 @@ font-style: normal;
 .header {
     max-height: 100px;
     margin: 15px auto 0px;
-
-
 }
 
 .header__content {
     display: flex;
     justify-content: space-between;
     color: #FEFEFE;
+    margin-bottom: 10px;
 }
 
 body {
@@ -86,19 +82,16 @@ img {
     max-width: 100%;
 }
 
-
 .color-orange {
     padding: 5px;
     background-color: #F68E57;
     border-radius: 5px;
     margin: auto;
-
 }
 
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 a:hover {
@@ -108,7 +101,6 @@ a:hover {
 .hover-active {
     color: #F68E57;
 }
-
 
 .color-orange:hover {
     background-color: #93589D;
@@ -140,9 +132,8 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 4px 0 5px 0;
+    margin: 4px 0 6px 0;
     gap: 27px;
-
 }
 
 .header__contact-item {
@@ -174,21 +165,22 @@ a:hover {
 .h2 {
     font-size: 40px;
     text-align: center;
-    margin-bottom: 56px;
+    margin-bottom: 61px;
     font-family: "Tank";
+}
 
-
+.credit .h2 {
+    margin-bottom: 51px;
 }
 
 .credit-card__content-item {
-    padding: 43px 0 0 90px;
+    padding: 5px 0 0 90px;
     display: flex;
     flex-direction: column;
     gap: 50px;
     box-sizing: border-box;
     overflow-wrap: break-word;
     width: 100%;
-
 }
 
 .credit-card__content-top {
@@ -222,7 +214,6 @@ a:hover {
 .credit-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .credit-terms {
@@ -231,7 +222,7 @@ a:hover {
     padding-left: 17px;
     max-width: 448px;
     gap: 20px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     grid-template-rows: 96px;
 }
 
@@ -248,7 +239,7 @@ a:hover {
 }
 
 .credit {
-    margin: 112px 45px 0 50px;
+    margin: 109px 45px 0 50px;
 }
 
 .button {
@@ -265,7 +256,6 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 .hero__item {
     padding: 102px 122px;
@@ -350,7 +340,6 @@ a:hover {
 .step {
     display: flex;
     flex-direction: column;
-
 }
 
 .step__text {
@@ -359,11 +348,10 @@ a:hover {
     font-weight: 800;
     font-size: 19px;
     text-align: center;
-    max-width: 366px;
+    max-width: 340px;
     line-height: 150%;
     font-family: "Tank bold";
-
-
+    margin-left: 20px;
 }
 
 
@@ -372,7 +360,6 @@ a:hover {
     justify-content: space-around;
     margin: 33px 76px;
     max-height: 100%;
-
 }
 
 .credit-card__content-image {
@@ -382,7 +369,7 @@ a:hover {
     align-items: center;
     max-width: 440px;
     max-height: 100%;
-    padding-top: 53px;
+    padding-top: 5px;
 }
 
 .footer {
@@ -398,7 +385,6 @@ a:hover {
     align-items: flex-start;
     justify-content: space-between;
 }
-
 
 .footer-social {
     grid-column: span 4;
@@ -438,26 +424,22 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 7px;
-
 }
 
 .footer-right {
     display: grid;
     padding-right: 115px;
-
 }
 
 .footer-right__menu {
     display: flex;
     padding-right: 66px;
     gap: 34px;
-
 }
 
 .row {
     padding-right: 33px;
 }
-
 
 .fw-600 {
     font-weight: 600;
@@ -474,7 +456,6 @@ a:hover {
     gap: 8px;
 }
 
-
 .credit-card__content-image img {
     max-width: 100%;
     max-height: 100%;
@@ -488,7 +469,6 @@ a:hover {
     color: #F68E57;
     margin-left: -17px;
     line-height: 125%;
-
 }
 
 .center {
@@ -539,7 +519,6 @@ a:hover {
     .credit-card__content {
         flex-direction: column;
         align-items: center;
-
     }
 
     .credit-card__content-item {
@@ -551,7 +530,6 @@ a:hover {
 
     .step {
         align-items: center;
-
     }
 
     .credit-item {
@@ -669,8 +647,6 @@ a:hover {
     .credit-programs {
         margin: 35px auto;
     }
-
-
 }
 
 @media (max-width: 500px) {
@@ -688,10 +664,6 @@ a:hover {
         text-align: start;
     }
 
-    .credit-terms__content::before {
-
-    }
-
     .button-mob {
         display: block;
     }
@@ -699,7 +671,6 @@ a:hover {
     .credit-button {
         padding: 20px;
     }
-
 
     .credit-card__content-item {
         gap: 10px;
@@ -747,7 +718,6 @@ a:hover {
         display: flex;
         gap: 19px;
         padding-top: 20px;
-
     }
 
     .footer-social-link {
@@ -769,5 +739,4 @@ a:hover {
     .footer__nav-list {
         padding-right: 10px;
     }
-
 }
