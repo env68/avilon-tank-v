@@ -78,6 +78,20 @@
         <div class="content">
             <div class="hero">
                 <div class="container">
+                    <div class="breadcrumbs">
+                        <div class="breadcrumbs__item">
+                            <a href="/">Главная</a>
+                        </div>
+
+                        <div class="breadcrumbs__item">
+                            <div class="breadcrumbs__item-separator">
+                                <img src="/upload/separator.png">
+                            </div>
+                            <div>
+                                <a href="#">Tank Credit</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="hero__item">
                         <div class="hero__title"><h1>TANK Credit</h1></div>
                         <div class="hero__description">Выгодные условия
@@ -134,7 +148,7 @@
                             </div>
 
                             <div class="credit-button"><a class="button color-orange" href="#">ХОЧУ
-                                КУПИТЬ АВТО В КРЕДИТ</a></div>
+                                    КУПИТЬ АВТО В КРЕДИТ</a></div>
                         </div>
                     </div>
                 </div>

@@ -107,6 +107,7 @@ a:hover {
     color: #fff;
 }
 
+
 .logo-left {
     margin-left: 91px;
     display: flex;
@@ -160,6 +161,34 @@ a:hover {
 
 .header__number {
     font-size: 13px;
+}
+
+.breadcrumbs {
+    display: flex;
+    padding: 25px 0px 10px 121px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Avenir LT";
+    gap: 12px;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    gap: 8px;
+    text-decoration: underline;
+}
+
+.breadcrumbs__item:last-child {
+text-decoration: none;
+}
+
+.breadcrumbs__item:last-child a:hover {
+    color: #fff;
+}
+
+.breadcrumbs__item-separator {
+    max-width: 5px;
+    max-height: 9px;
 }
 
 .h2 {
@@ -258,7 +287,7 @@ a:hover {
 }
 
 .hero__item {
-    padding: 102px 122px;
+    padding: 54px 122px;
     display: flex;
     flex-direction: column;
     gap: 38px;
@@ -581,6 +610,10 @@ a:hover {
     .header__contact {
         margin-right: 20px;
     }
+
+    .breadcrumbs {
+        padding-left: 30px;
+    }
 }
 
 
@@ -677,6 +710,7 @@ a:hover {
         margin: 35px 10px 0 10px;
 
     }
+
     .footer {
         margin-top: 35px;
     }
@@ -773,5 +807,8 @@ a:hover {
 
     .footer__nav-list {
         padding-right: 10px;
+    }
+    .button {
+        padding: 10px;
     }
 }
