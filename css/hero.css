@@ -1,0 +1,66 @@
+.hero {
+    background-image: url('/upload/banner.jpeg');
+    width: 100%;
+    height: 584px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero__item {
+    padding: 54px 122px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    max-height: 250px;
+    max-width: 388px;
+}
+
+.hero__title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.hero__description {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+
+.decor {
+    background-color: #F68E57;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.decor::after {
+    content: '';
+    display: block;
+    width: 120px; /* Ширина оранжевой полосы */
+    height: 12px;
+    background-color: #F68E57;
+}
+
+@media (max-width: 1024px) {
+
+    .hero__item {
+        padding: 102px 30px;;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    .hero__title {
+        font-size: 30px;
+    }
+
+    .hero__description {
+        font-size: 18px;
+    }

@@ -1,0 +1,33 @@
+.breadcrumbs {
+    display: flex;
+    padding: 25px 0px 10px 121px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Avenir LT";
+    gap: 12px;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    gap: 8px;
+    text-decoration: underline;
+}
+
+.breadcrumbs__item:last-child {
+    text-decoration: none;
+}
+
+.breadcrumbs__item:last-child a:hover {
+    color: #fff;
+}
+
+.breadcrumbs__item-separator {
+    max-width: 5px;
+    max-height: 9px;
+}
+
+@media (max-width: 1024px) {
+        .breadcrumbs {
+        padding-left: 30px;
+    }
+}

@@ -1,0 +1,73 @@
+* {
+
+    margin: 0;
+}
+
+body {
+    background-color: #121214;
+    color: #fff;
+    font-family: 'Avenir LT', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #F68E57;
+}
+
+.hover-active {
+    color: #F68E57;
+}
+
+.color-orange:hover {
+    background-color: #93589D;
+    color: #fff;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 61px;
+    font-family: "Tank";
+}
+
+.button {
+    padding: 11px 47px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.fw-600 {
+    font-weight: 600;
+    font-family: TT Wellingtons DemiBold;
+}
+
+.wrap {
+    line-height: 145%;
+}
+
+
+
+.button-mob {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+        .h2 {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'TT Wellingtons Black Italic';
+    src: url('/fonts/tt-wellingtons/TT Wellingtons DemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Wellingtons DemiBold';
+    src: url('/fonts/tt-wellingtons/TT Wellingtons DemiBold.otf') format('opentype');
+    font-weight: 600; /* или normal, demiBold обычно соответствует weight: 600 */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT';
+    src: url('/fonts/avenirlt_roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('/fonts/abhaya-libre.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tank Bold';
+    src: url('/fonts/tank-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tank Medium';
+    src: url('/fonts/tank-medium.woff2') format('woff2');
+    font-weight: 500; /
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tank';
+    src: url('/fonts/tank-regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 600;
+}

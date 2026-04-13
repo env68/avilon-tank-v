@@ -2,7 +2,15 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="/styleme.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/link.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="/css/breadcrumbs.css">
+     <link rel="stylesheet" href="/css/credit.css">
+
     <meta charset="utf-8">
     <link rel="icon" type="image/png" sizes="32x32" href="/upload/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="/upload/favicon-48x48.png">
@@ -21,6 +29,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="/upload/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/upload/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="57x57" href="/upload/apple-touch-icon-57x57.png">
+    <script src="/scripts/scripts.js"> </script>
     <title>avilon-tank</title>
 </head>
 <body>
